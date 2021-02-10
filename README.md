@@ -1,3 +1,10 @@
+
+
+Repo Link --- for clone
+
+git clone -b sai-dev https://github.com/Saikiran-dsk/open-financial-tech-website.git
+
+
 Once clone Is done
 
 i added node modules also ---
