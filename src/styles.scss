@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~ngx-ui-switch/ui-switch.component.scss';
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-accent .mat-slider-track-fill{
+    background:#9F62C9 !important;
+}
+.mat-accent .mat-slider-thumb{
+    background:#9F62C9 !important;
+}
+.mat-slider-horizontal .mat-slider-track-background{
+    background: #f5eff9;
+}
+.mat-slider-thumb{
+    transform: scale(0.3) !important;
+}
+
+// .switch.switch-small small{
+//     width: 15px !important;
+//     height: 15px !important;
+// }
+// .switch.switch-small{
+//     height: 15px;
+// }

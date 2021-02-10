@@ -1,0 +1,84 @@
+.bottom-cards{
+  width: 242px;
+  height: 175px;
+  overflow: hidden;
+  word-break: break-all;
+  font-size: 9px;
+  line-height: normal;
+  border-radius: 18px;
+  margin-bottom: 32px;
+  }
+
+  #main{
+    margin-top: 66px;
+    min-height: 600px;
+    background-image: url("../../../assets/img/a12.png");
+   
+    background-repeat: no-repeat;
+  
+     background-size: 100%;
+}
+
+.cards-design{
+  width: 24%;
+  margin: 2% 0% 3% 0%;
+  height: 6px;
+  margin-top: 7%;
+  margin-bottom: 3%;
+
+}
+.card2-design{
+  width: 78%;
+  margin: 3% 0% 0% 0%;
+  height: 79%;
+}
+
+.col-one{
+  float: right;
+}
+.card{
+  background: none;
+  border: none;
+  
+}
+mat-card{
+  box-shadow: 0px 4px 1px -4px rgba(0, 0, 0, 0.2), 1px 1px 1px 0px rgba(0, 0, 0, 0), -5px -4px 36px 1px rgba(0, 0, 0, 0.12) !important;
+&:hover{
+  background: #9F62C9;
+  p{
+    color: white;
+  }
+}
+}
+.description{
+  color: #9e9696;
+  font-size: 12px;
+}
+.headerText{
+  font-weight: 500;
+  font-size: 13px;
+  color: black; 
+}
+.boost{
+  margin: 6% 0% 0% 7%;
+}
+.button-design{
+  background: white;
+  color: #9F62C9;
+  border: 1px solid #9F62C9;
+  border-radius: 13px;
+  padding: 0px 10px 0px 12px;
+  padding: 3px 11px 3px 11px;
+  font-weight: 300;
+  &:hover{
+    background: #9F62C9;
+    color:white ;
+  }
+}
+.descWidth{
+  width: 52%;
+  color: #9e9696;
+}
+.secondRow{
+  margin-top: 8%;
+}

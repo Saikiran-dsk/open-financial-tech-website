@@ -1,0 +1,108 @@
+<div id="main">
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+        <div>
+          <img src="./assets/img/a6.png" class="card2-design">
+          <img src="./assets/img/a15.png" class="cards-design">
+        </div>
+        <div class="view overlay">
+          <img class="card-img-top" src="./assets/img/a4.png">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-sm-6" style="display: flex;">
+
+      <mat-card class="example-result-card cal-card">
+        <mat-card-title>Eligibility calculator</mat-card-title>
+        <mat-card-content>
+          <div class="design">
+            <label>Monthly Income</label>
+            <p>&#x20B9;{{gridsize.value}}</p>
+            <div class="slider">
+              <mat-slider  #gridsize  step="5"  [max]="max" [min]="min"
+              ></mat-slider>
+              
+            </div>
+            <div class="col-sm-12 card-calc" style="display: flex;">
+              <div class="col-sm-6 textAlignLeft">&#x20B9;100000</div>
+              <div class="col-sm-6 textAlignRight">&#x20B9;300000</div>
+            </div>
+          </div>
+          <div class="design">
+            <label>Monthly Expense</label>
+            <p>&#x20B9;{{gridsizeSecond.value}}</p>
+            <div class="slider">
+              <mat-slider  #gridsizeSecond  step="1"  [max]="max2" [min]="min2"
+              ></mat-slider>
+            </div>
+            <!-- <div class="col-sm-12 card-calc" style="display: flex;">
+              <div class="col-sm-6 textAlignLeft">&#x20B9;1,00,000</div>
+              <div class="col-sm-6 textAlignRight">&#x20B9;3,00,000</div>
+            </div> -->
+
+          </div>
+          <div class="design">
+            <label>Choose one</label>
+            <mat-select [(value)]="selected">
+              <mat-option>Clear</mat-option>
+              <mat-option value="one">1 Month</mat-option>
+              <mat-option value="two">2 Months</mat-option>
+              <mat-option value="three">3 Months</mat-option>
+              <mat-option value="four">4 Months</mat-option>
+              <mat-option value="five">5 Months</mat-option>
+              <mat-option value="six">6 Months</mat-option>
+              <mat-option value="seven">7 Months</mat-option>
+              <mat-option value="eight">8 Months</mat-option>
+              <mat-option value="nine">9 Months</mat-option>
+              <mat-option value="ten">10 Months</mat-option>
+              <mat-option value="eleven">11 Months</mat-option>
+              <mat-option value="twelve">12 Months</mat-option>
+            </mat-select>
+          </div>
+
+          <div class="design" style="display: flex;">
+            <div>
+              <label>Do you have any existing loan ?</label>
+            </div>
+           <div style="text-align: right;" class="button-des">
+            <ui-switch color="#9F62C9" size="small"></ui-switch>
+           </div>
+          </div>
+
+          <div class="design">
+            <label>Input</label><br>
+            &#x20B9;<input placeholder="15000" matInput>
+          </div>
+        </mat-card-content>
+
+
+
+
+      </mat-card>
+      <mat-card class="cal-card2">
+
+       <div class="loan-card2">
+        <div>
+          <label class="label-color">Loan amount</label><br>
+          <div style="display: flex;">&#x20B9;<p>1,00,000</p>
+          </div>
+        </div>
+        <div>
+          <label class="label-color">Your EMI will be</label><br>
+          <div style="display: flex;"> &#x20B9;<p>15,000</p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary button-design">GET MONEY</button>
+       </div>
+      </mat-card>
+
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,12 @@
+#main{
+    // background-image: url("../assets/img/a1.png");
+    min-height: 600px;
+    background: url("../assets//img/a1.png") right -15px top -143px no-repeat,
+                url("../assets/img/a5.png") left -53px top 120px  no-repeat,
+                url("../assets/img/a13.png") left 299px  top 458px no-repeat,
+                url("../assets/img/a14.png") right 116px top 569px no-repeat;
+
+  
+    background-size:731px, 317px, 237px, 222px;
+    width: 100%;
+}

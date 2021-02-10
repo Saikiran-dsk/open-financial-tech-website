@@ -1,0 +1,117 @@
+
+#main{
+    width:100%;
+}
+.card{
+    width: 337px;
+    margin: 5% 0% 0% 21%;
+    background: none;
+    border: none;
+}
+.cal-card{  
+    margin-top: 26px;
+    border-radius: 19px;
+    height: 409px;
+    width: 309px;
+    margin-left: 41px;
+}
+.cal-card2{
+    height: 73%;
+    color: white;
+    margin-top: 12%;
+    border-radius: 0px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    width: 137px;
+    background-size: 288px 500px;
+    background-position: 78%;
+    margin-left: 5px;
+    background-image: url("../../../assets/img/a17.png");
+   
+}
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+ .cards-design{
+    width: 55%;
+    margin: 2% 0% 3% 0%;
+    height: 3px;
+ }
+ .card2-design{
+    width: 100%;
+    margin: 3% 0% 0% 0%;
+    height: 79%;
+ }
+ .button-design{
+    background: white;
+    color: #9F62C9;
+    border: 1px solid #9F62C9;
+    border-radius: 18px;
+    padding: 0px 10px 0px 12px;
+    padding: 3px 11px 3px 11px;
+    font-weight: 300;
+    font-size: 10px;
+    &:hover{
+        background: #9F62C9;
+        color:white ;
+      }
+  }
+  mat-card-title{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+.card-calc{
+    display: flex;
+    position: absolute;
+    margin: -6% 0% 0% -10%;
+    font-size: 11px;
+}
+.textAlignRight{
+    text-align: right;
+}
+.textAlignLeft{
+    text-align: left;
+}
+mat-slider{
+    width: 93%;
+}
+label{
+    font-size: 13px;
+    line-height: 1px;
+    color: #595959;
+}
+ mat-card-content{
+    width: 257px;
+ }
+
+ .slider{
+    margin : -8% 0% -1px -1%
+ }
+ mat-select{
+    border-bottom: 1px solid #80808066;
+ }
+
+ .design{
+    margin-bottom: 15px;
+    input{
+        border: none;
+    border-bottom: 1px solid #80808066;
+    outline: none;
+    }
+ }
+.button-des{
+    margin: -2% 0% 0% 15%;
+}
+.label-color{
+    color: #f6ebeb;
+}
+
+.loan-card2{
+    margin: 60% 3% 0% 8% !important;
+}
+mat-card-title{
+    background: #f8f8f894;
+}
